@@ -14,6 +14,8 @@
 		36E008271EB9AA5400B1F792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E008251EB9AA5400B1F792 /* LaunchScreen.storyboard */; };
 		36E008321EB9AA5400B1F792 /* UISearchControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E008311EB9AA5400B1F792 /* UISearchControllerTests.swift */; };
 		36E0083D1EB9AA5400B1F792 /* UISearchControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E0083C1EB9AA5400B1F792 /* UISearchControllerUITests.swift */; };
+		36E0084B1EB9C7AB00B1F792 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E0084A1EB9C7AB00B1F792 /* Candy.swift */; };
+		36E0084D1EB9C7F300B1F792 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E0084C1EB9C7F300B1F792 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		36E008381EB9AA5400B1F792 /* UISearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E0083C1EB9AA5400B1F792 /* UISearchControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchControllerUITests.swift; sourceTree = "<group>"; };
 		36E0083E1EB9AA5400B1F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E0084A1EB9C7AB00B1F792 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		36E0084C1EB9C7F300B1F792 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				36E008231EB9AA5400B1F792 /* Assets.xcassets */,
 				36E008251EB9AA5400B1F792 /* LaunchScreen.storyboard */,
 				36E008281EB9AA5400B1F792 /* Info.plist */,
+				36E0084A1EB9C7AB00B1F792 /* Candy.swift */,
+				36E0084C1EB9C7F300B1F792 /* DetailViewController.swift */,
 			);
 			path = UISearchController;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E0081F1EB9AA5400B1F792 /* ViewController.swift in Sources */,
+				36E0084B1EB9C7AB00B1F792 /* Candy.swift in Sources */,
 				36E0081D1EB9AA5400B1F792 /* AppDelegate.swift in Sources */,
+				36E0084D1EB9C7F300B1F792 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
